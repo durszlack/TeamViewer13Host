@@ -1,0 +1,22 @@
+pkgbase = teamviewer13host
+	pkgdesc = All-In-One Software for Remote Support and Online Meetings
+	pkgver = 13.0.5641
+	pkgrel = 1
+	url = http://www.teamviewer.com
+	install = teamviewer.install
+	arch = x86_64
+	license = custom
+	provides = teamviewer
+	conflicts = teamviewer-beta
+	options = !strip
+	source_x86_64 = https://dl.tvcdn.de/download/linux/version_13x/teamviewer-host_13.0.5641_amd64.deb
+	depends_x86_64 = qt5-base
+	depends_x86_64 = qt5-declarative
+	depends_x86_64 = qt5-x11extras
+	depends_x86_64 = qt5-webkit
+	depends_x86_64 = hicolor-icon-theme
+	depends_x86_64 = qt5-x11extras
+	sha256sums_x86_64 = 49c8e1936a9d1329971752e99a0bdeb8f91bb521a457edffec735c10e318d9e9
+
+pkgname = teamviewer13host
+
